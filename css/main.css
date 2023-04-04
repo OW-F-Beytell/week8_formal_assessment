@@ -63,6 +63,22 @@ nav ul li{
     margin: 0 auto;
     margin-top: 20px;
 }
+.user-profile-icon:hover{
+    background-color: #2b2b2b;
+    opacity: 90%;
+    border-radius: 50%;
+}
+.remove{
+    opacity: 0%;
+}
+.remove:hover{
+    height: 80px;
+    width: 80px;
+    margin: 0 auto;
+    padding-top: 40px;
+    opacity: 100%;
+    border-radius: 50%;
+}
 .img-john{
     background-image: url("../assets/John.jpg");
     background-position: center;
@@ -95,6 +111,15 @@ nav ul li{
     color: white;
     font-family: 'Lobster Two', cursive;
     font-weight: bold;
+}
+.button-hire:hover{
+    background-color: white;
+    color: #2b2b2b;
+    border: solid 2px lightgray;
+}
+.add-user-icon{
+    background-color: #2b2b2b;
+    border-radius: 50%;
 }
 footer{
     height: 100px;
