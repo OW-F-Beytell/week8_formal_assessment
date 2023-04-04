@@ -134,6 +134,25 @@ form{
     background-color: #2b2b2b;
     border-radius: 50%;
 }
+form{
+}
+form h5{
+    margin-top: 30px;
+    font-weight: normal;
+    font-style: italic;
+}
+form input{
+    width: 90%;
+    background-color: lightgray;
+    color: white;
+    height: 40px;
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+}
+form input textarea{
+    height: 120px;
+}
 footer{
     height: 100px;
     margin-top: 120px;
